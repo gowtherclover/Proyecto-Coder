@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SESION</title>
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <!-- Link animacion externo -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- estilos locales -->
+    <link rel="stylesheet" href="../estilos/css/all.min.css">
+    <link rel="shortcut icon" href="../img/favicon-32x32.png">
+    <link rel="stylesheet" href="../estilos/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html"><img src="../img/logo-qatar-png.png" class="header__img" alt="logo qatar 2022"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mb-3 flex-grow-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./equipos.html">Equipos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./fechas.html">Fechas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./grupos.html">Grupos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 form--hover" type="search" placeholder="Buscar" aria-label="BuscarS">
+                        <button class="header__btn btn btn-outline-light " type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article class="articulo container pt-2" data-aos="fade-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
+            <form action="">
+                <label for="basic-url" class="form-label">SUSCRIPCION AL NEWSLETTER</label>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Nombre</span>
+                    <input type="text" class="form-control form--hover" placeholder="nombre completo" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control form--hover" id="floatingInput" placeholder="correo@dominio.com">
+                    <label for="floatingInput">direccion de correo</label>
+                </div>
+                
+                <label for="basic-url" class="form-label">Preferencias</label>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon3">noticias sobre</span>
+                    <select class="form-select form--hover" aria-label="Default select example">
+                        <option selected>Opciones</option>
+                        <option value="1">Alemania</option>
+                        <option value="2">Arabia Saudita</option>
+                        <option value="3">Argentina</option>
+                        <option value="4">Australia</option>
+                        <option value="5">Bélgica</option>
+                        <option value="6">Brasil</option>
+                        <option value="7">Camerún</option>
+                        <option value="8">Canadá</option>
+                        <option value="9">Corea del Sur</option>
+                        <option value="10">Costa Rica</option>
+                        <option value="11">Croacia</option>
+                        <option value="12">Dinamarca</option>
+                        <option value="13">Ecuador</option>
+                        <option value="14">España</option>
+                        <option value="15">Estados Unidos</option>
+                        <option value="16">Francia</option>
+                        <option value="17">Gales</option>
+                        <option value="18">Ghana</option>
+                        <option value="19">Inglaterra</option>
+                        <option value="20">Irán</option>
+                        <option value="21">Japón</option>
+                        <option value="22">Marruecos</option>
+                        <option value="23">México</option>
+                        <option value="24">Países Bajos</option>
+                        <option value="25">Polonia</option>
+                        <option value="26">Portugal</option>
+                        <option value="27">Qatar</option>
+                        <option value="28">Senegal</option>
+                        <option value="29">Serbia</option>
+                        <option value="30">Suiza</option>
+                        <option value="31">Túnez</option>
+                        <option value="32">Uruguay</option>
+                    </select>
+                </div>
+                
+                <label for="customRange3" class="form-label">Frecuencia de mails por días</label>
+                <input type="range" class="form-range" min="1" max="7" step="1" id="customRange3">
+                
+                <div class="input-group pb-3">
+                    <span class="input-group-text">Comentarios</span>
+                    <textarea class="form-control form--hover" aria-label="With textarea"></textarea>
+                </div>
+            </form>    
+        </article>
+    </main>
+    <footer class="text-center text-lg-start text-muted">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom text-light">
+            <div class="me-5 d-none d-lg-block">
+                <span>Contactanos con nuestras redes sociales:</span>
+            </div>
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fa-brands fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </section>
+        <section>
+            <div class="container text-center text-md-start mt-5 text-light">
+                <div class="row mt-3">
+                    <div class="col-md-4 mx-auto mb-4">
+                        <h6 class="fw-bold mb-4">AYUDA</h6>
+                        <p>
+                            <a href="#" class="text-reset">Escribinos</a>
+                        </p>
+                        <p>
+                            <a href="#" class="text-reset">FAQ</a>
+                        </p>
+                        <p>
+                            <a href="#" class="text-reset">Terminos y condiciones</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 mx-auto mb-4">
+                        <h6 class=" fw-bold mb-4">LINKS</h6>
+                    <p>
+                        <a href="./newsletter.html" class="text-reset">Newsletter</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-reset">Info</a>
+                    </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contactanos</h6>
+                        <p><i class="fas fa-home me-3"></i> Evergreen Terrace, 742 CP, Springfield</p>
+                        <p><i class="fas fa-envelope me-3"></i>Info@qatar2022.com</p>
+                        <p><i class="fas fa-phone me-3"></i> + 54 9 261 321 43</p>
+                        <p><i class="fas fa-print me-3"></i> + 54 9 263 567 83</p>
+                    </div>
+                </div>
+        </div>
+        </section>
+        <div class="text-center p-4 text-light" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2022 Copyright:
+            <a class="text-reset fw-bold" href="#">aguilarenzo.com</a>
+        </div>
+    </footer>
+    <!-- AOS -->
+    <script>
+        AOS.init();
+    </script> 
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
