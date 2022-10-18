@@ -52,9 +52,17 @@ ul{
 /*********************** HEADER FIN ***********************/
 
 /*********************** MAIN ***********************/
+
+/*Para agregar imagen desde drive
+copia los caracteres entre «file/d/» y  «view?»	
+Y ahora para crear la URL que corresponde a tu imagen, debes usar la siguiente cadena:
+
+«http://drive.google.com/uc?export=view&id=FILEID«
+
+cambiando FILEID con la cadena de caracteres que copiaste en el paso anterior.
+*/
 main{
-    background-image: url(https://drive.google.com/file/d/1R2C42hXT2bNgeWxJvfPy3bpBgjjYKg0t/view?usp=sharing);
-    background-image: url("https://drive.google.com/file/d/1R2C42hXT2bNgeWxJvfPy3bpBgjjYKg0t/view?usp=sharing");
+    background-image: url(http://drive.google.com/uc?export=view&id=1R2C42hXT2bNgeWxJvfPy3bpBgjjYKg0t);
 }
 
 .articulo{
@@ -62,10 +70,10 @@ main{
 }
 
 .articulo__hora{
-    background-color: #ffffff;
+    background-color: #ffffff7e;
     border-radius: .5rem;
     color: #8d1c3d;
-
+    width: 90%;
 }
 
 .articulo__hora h3{
@@ -86,19 +94,19 @@ main{
 }
 @keyframes parpadeo {
     0%{
-        filter: drop-shadow(4px 4px 2px #ffffff);
+        filter: drop-shadow(4px 4px 2px #8d1c3d);
     }
     25%{
         filter: none;
     }
     50%{
-        filter: drop-shadow(4px 4px 2px #ffffff);
+        filter: drop-shadow(4px 4px 2px #8d1c3d);
     }
     75%{
         filter: none;
     }
     100%{
-        filter: drop-shadow(4px 4px 2px #ffffff);
+        filter: drop-shadow(4px 4px 2px #8d1c3d);
     }
 
 }
@@ -112,6 +120,7 @@ main{
 .fecha{
     background-color: #e1c396c9;
     color: #8d1c3d;
+    border-radius: .5rem;
 }
 
 .fecha h2{
@@ -122,9 +131,16 @@ main{
     border-color: #e1c396;
     box-shadow: 0px 0px 0px 3px rgb(225, 195, 150);
 }
+
 @media screen and (min-width: 768px) {
 
     .equipos__continente{
         width: 30rem;
     }    
+}
+
+@media screen and (max-width: 425px){
+    .grupos div{
+        width: 90%;
+    }
 }
