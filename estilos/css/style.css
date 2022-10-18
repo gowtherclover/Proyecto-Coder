@@ -53,7 +53,8 @@ ul{
 
 /*********************** MAIN ***********************/
 main{
-    background-image: url(/img/fondo-qatar-2022.jpg);
+    background-image: url(https://drive.google.com/file/d/1R2C42hXT2bNgeWxJvfPy3bpBgjjYKg0t/view?usp=sharing);
+    background-image: url("https://drive.google.com/file/d/1R2C42hXT2bNgeWxJvfPy3bpBgjjYKg0t/view?usp=sharing");
 }
 
 .articulo{
