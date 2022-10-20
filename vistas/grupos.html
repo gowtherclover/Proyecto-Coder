@@ -13,6 +13,11 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <!-- Link jquery -->
+    <script
+    src="https://code.jquery.com/jquery-3.6.1.js"
+    integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
     <!-- estilos locales -->
     <link rel="stylesheet" href="../estilos/css/all.min.css">
     <link rel="shortcut icon" href="../img/favicon-32x32.png">
@@ -82,164 +87,40 @@
             <!-- Polonia -->
             <!-- Portugal -->
             <!-- Qatar -->
-                <div class="modal fade" id="infoEquipo" tabindex="-1" aria-labelledby="exampleModalScrollableTitle" style="display: none;" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-scrollable">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalScrollableTitle">Seleccion de Qatar</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal fade ventana" id="infoEquipo" tabindex="-1" aria-labelledby="exampleModalScrollableTitle" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div>
+                                <h1 class="modal-title fs-5" id="exampleModalScrollableTitle">Seleccion</h1>
+                                <img class="bandera" src="#" alt="pais" id="img1">
                             </div>
-                            <div class="modal-body">
-                                <table class="table table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">#</th>
-                                            <th scope="col">Jugadores</th>
-                                            <th scope="col">Posicion</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td>Saad Al-Sheeb</td>
-                                            <td>Portero</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">22</th>
-                                            <td>Meshaal Barsham</td>
-                                            <td>Portero</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">31</th>
-                                            <td>Salah Zakaria</td>
-                                            <td>Portero</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">13</th>
-                                            <td>Musab Khoder</td>
-                                            <td>Lateral derecho</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">14</th>
-                                            <td>Homam Ahmed</td>
-                                            <td>Lateral izquierdo</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">3</th>
-                                            <td>Abdelkarim Hassan</td>
-                                            <td>Lateral Izquierdo</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">4</th>
-                                            <td>Mohammed Waad</td>
-                                            <td>Mediocentro</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">23</th>
-                                            <td>Mustafa Mashaal</td>
-                                            <td>Mediocentro</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">6</th>
-                                            <td>Abdulaziz Hatem</td>
-                                            <td>Mediocentro</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">8</th>
-                                            <td>Ali Asad</td>
-                                            <td>Mediocentro ofensivo</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">5</th>
-                                            <td>Tarek Salman</td>
-                                            <td>Defensa central</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">2</th>
-                                            <td>Pedro Miguel</td>
-                                            <td>Defensa Central</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">15</th>
-                                            <td>Bassam Al-Rawi</td>
-                                            <td>Defensa central</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">16</th>
-                                            <td>Boualem Khoukhi</td>
-                                            <td>Defensa central</td>
-                                        </tr>
-
-                                        
-                                        <tr>
-                                            <th scope="row">10</th>
-                                            <td>Hasan Al-Haydos</td>
-                                            <td>Extremo derecho</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">21</th>
-                                            <td>Naif Al-Hadhrami</td>
-                                            <td>Extremo derecho</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">17</th>
-                                            <td>Ismaeel Mohammed</td>
-                                            <td>Extremo derecho</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">11</th>
-                                            <td>Akram Afif</td>
-                                            <td>Extremo izquierdo</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">25</th>
-                                            <td>Abdelrahman Moustafa</td>
-                                            <td>Extremo izquierdo</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">18</th>
-                                            <td>Khalid Muneer Mazeed</td>
-                                            <td>Extremo izquierdo</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">7</th>
-                                            <td>Ahmed Alaaeldin</td>
-                                            <td>Delantero centro</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">9</th>
-                                            <td>Mohammed Muntari</td>
-                                            <td>Delantero centro</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">19</th>
-                                            <td>Almoez Ali</td>
-                                            <td>Delantero centro</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">12</th>
-                                            <td>Karim Boudiaf</td>
-                                            <td>Pivote</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">20</th>
-                                            <td>Ahmed Fadel</td>
-                                            <td>Pivote</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">32</th>
-                                            <td>Jassem Gaber Abdulsallam</td>
-                                            <td>Pivote</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                            </div>
+                                <!-- NAV BAR del modal -->
+                            <nav class="header__nav navbar navbar-expand-md ventana">
+                                <div class="container-fluid">
+                                    <div class="flex-grow-0" id="navbarSupportedContent">
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+                                            <li class="nav-item">
+                                                <a class="ventana nav-link" id="div-btn1">Jugadores</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class=" ventana nav-link" id="div-btn2">Cuerpo tecnico</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                            <!-- FIN NAV BAR del modal -->
+                        </div>
+                        <div class="modal-body ventana" id="central">
+                            <!-- ACA va el texto que traigo del JQuery -->
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                         </div>
                     </div>
                 </div>
+            </div>
             <!-- Senegal -->
             <!-- Serbia -->
             <!-- Suiza -->
@@ -254,11 +135,14 @@
                 <div class="fecha col-md-4 col-lg-3 m-xs-auto m-2 rounded-4">
                     <h2 class="text-center ">GRUPO A</h2>
                     <ul>
-                        <li data-bs-toggle="modal" data-bs-target="#infoEquipo">
+                        <li data-bs-toggle="modal" data-bs-target="#infoEquipo" id="btn-qatar">
                             <img class="bandera" src="https://sportscubecdn-wqps7yvkz.stackpathdns.com/images/teame47d56aa708af54ccecde3543f1306749852aa6b0e65b317583dbf77aa9466d62616cf9181fad0b336a249577655c77fd397c545be15b04067546d629acf1cb5.svg" alt="logo-qatar"> 
                             <span>Qatar</span>
                         </li>
-                        <li ><img class="bandera" src="https://sportscubecdn-wqps7yvkz.stackpathdns.com/images/team25c72c494e19bc539e69e74eda5ffefeff68da637a297b991692d15ef300fe84fda504becfee0ee86ce46c1779898ae1e4117ed1cb0f8878c584061a09b8111d.svg" alt="logo-ecuador"> Ecuador</li>
+                        <li data-bs-toggle="modal" data-bs-target="#infoEquipo" id="btn-ecuador">
+                            <img class="bandera" src="https://sportscubecdn-wqps7yvkz.stackpathdns.com/images/team25c72c494e19bc539e69e74eda5ffefeff68da637a297b991692d15ef300fe84fda504becfee0ee86ce46c1779898ae1e4117ed1cb0f8878c584061a09b8111d.svg" alt="logo-ecuador"> 
+                            <span>Ecuador</span>
+                        </li>
                         <li ><img class="bandera" src="https://sportscubecdn-wqps7yvkz.stackpathdns.com/images/team2fa6461d0e8129f1cb5a08c01921b1d0cd070c5fc5034cb20fb2b50269f4fe83b9b76e695db2b856f0c919e92c933815565155b3421fe5fbec149bbd24aa68c7.svg" alt="logo-senegal"> Senegal</li>
                         <li ><img class="bandera" src="https://sportscubecdn-wqps7yvkz.stackpathdns.com/images/team3d2f09ec3f37acad8249e560b0145640d70b0fce8caf094438ee1870d1fb35eb22e20a1637c2069a5cec333dc0d4d38280238afca8bc342adb6304ba523c3ac7.svg" alt="logo-paises-bajos"> Países Bajos</li>
                     </ul>
@@ -401,5 +285,41 @@
     </script> 
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#btn-qatar').on('click', function() {
+                $("#central").load('../equipos/qatar.php');
+                $("#img1").attr("src","https://sportscubecdn-wqps7yvkz.stackpathdns.com/images/teame47d56aa708af54ccecde3543f1306749852aa6b0e65b317583dbf77aa9466d62616cf9181fad0b336a249577655c77fd397c545be15b04067546d629acf1cb5.svg");
+                
+                $('#div-btn1').on('click', function() {
+                $('.navbar-nav li').removeClass('active');
+                $("#central").load('../equipos/qatar.php');
+                
+                });
+        
+                $('#div-btn2').on('click', function() {
+                $('.navbar-nav li').removeClass('active');
+                $("#central").load('../equipos/plantel-qatar.php');
+                });
+            });
+            $('#btn-ecuador').on('click',function(){
+                $("#central").load('../equipos/ecuador.php');
+                $("#img1").attr("src","https://sportscubecdn-wqps7yvkz.stackpathdns.com/images/team25c72c494e19bc539e69e74eda5ffefeff68da637a297b991692d15ef300fe84fda504becfee0ee86ce46c1779898ae1e4117ed1cb0f8878c584061a09b8111d.svg");
+                
+                $('#div-btn1').on('click', function() {
+                $('.navbar-nav li').removeClass('active');
+                $("#central").load('../equipos/ecuador.php');
+                
+                });
+                $('#div-btn2').on('click', function() {
+                $('.navbar-nav li').removeClass('active');
+                $("#central").load('../equipos/plantel-ecuador.php');
+                
+                });
+            });
+            
+        });
+    </script>
 </body>
 </html>

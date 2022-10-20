@@ -132,6 +132,10 @@ main{
     box-shadow: 0px 0px 0px 3px rgb(225, 195, 150);
 }
 
+.ventana,.ventana table th{
+    color: #8d1c3d;
+}
+
 @media screen and (min-width: 768px) {
 
     .equipos__continente{
