@@ -1,3 +1,7 @@
-li{
-    background-image: url(../estilos.css);
-}
+@import "parciales/basico-para-todo.scss";
+@import "parciales/_header.scss";
+@import "parciales/_main.scss";
+@import "parciales/_equipos.scss";
+@import "parciales/_galeria.scss";
+@import "parciales/_fechas.scss";
+@import "parciales/_form.scss";

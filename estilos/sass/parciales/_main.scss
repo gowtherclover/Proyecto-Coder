@@ -1,0 +1,24 @@
+main{
+    background-image: url(http://drive.google.com/uc?export=view&id=1R2C42hXT2bNgeWxJvfPy3bpBgjjYKg0t);  
+    background-repeat:repeat-y;  
+    background-size:100% 500px;
+}
+
+.articulo{
+    background-color: #5f5f5f46;
+    &__hora{
+        background-color: #ffffff7e;
+        color: #8d1c3d;
+        border-radius: .5rem;
+        width: 90%;
+    }
+    &__hora h3{
+        padding-top: 1.2rem;
+        margin: 0;
+    }
+}
+
+.bandera{
+    width: 2rem;
+    margin: 1rem;
+}

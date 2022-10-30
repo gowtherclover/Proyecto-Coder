@@ -1,0 +1,24 @@
+.parpadeo {
+    animation-name: parpadeo;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+@keyframes parpadeo {
+    0%{
+        filter: drop-shadow(4px 4px 2px #8d1c3d);
+    }
+    25%{
+        filter: none;
+    }
+    50%{
+        filter: drop-shadow(4px 4px 2px #8d1c3d);
+    }
+    75%{
+        filter: none;
+    }
+    100%{
+        filter: drop-shadow(4px 4px 2px #8d1c3d);
+    }
+
+}
