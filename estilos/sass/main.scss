@@ -1,3 +1,4 @@
+@import "parciales/variables.scss";
 @import "parciales/basico-para-todo.scss";
 @import "parciales/_header.scss";
 @import "parciales/_main.scss";
@@ -5,3 +6,53 @@
 @import "parciales/_galeria.scss";
 @import "parciales/_fechas.scss";
 @import "parciales/_form.scss";
+@import "parciales/_media-queries.scss";
+
+.boton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all .5s ease;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    z-index: 99;
+    background-color: $dorado;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.40);
+
+    &__arriba{
+        color: $bordo;
+    }
+    &__arriba i{
+        font-weight: 800;
+        font-size: 1.5em;
+    }
+    &__arriba:hover{
+        color: #fff;
+    }
+}
+
+/*
+.button-arriba .item {
+    width: 0%;
+    height: 0%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+        0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    background-color: #283593;
+    color: #fff !important;
+    opacity: 0;
+    transform: scale(0);
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    transition: all .5s ease;
+}
+*/
+
+footer{
+    background-color: $bordo;
+}
+

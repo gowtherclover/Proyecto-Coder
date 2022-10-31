@@ -1,5 +1,11 @@
-.header, footer{
-    background-color: #8d1c3d;
+.header{
+    background-color: $bordo;
+    &__nav--link{
+        color:#ffffff;
+    }
+    &__nav--link:hover{
+        color: $dorado-oscuro;
+    }
 }
 
 .navbar-toggler {
@@ -18,5 +24,10 @@
 }
 
 .buscar input:hover{
-    border:#e1c396  solid 2px;
+    border: $dorado  solid 2px;
+}
+
+.activo{
+    font-weight:bold;
+    color: $dorado ;
 }
