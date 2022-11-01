@@ -6,15 +6,17 @@ main{
 
 .articulo{
     background-color: #5f5f5f46;
-    &__hora{
+    &__fondo{
         background-color: #ffffff7e;
-        color: #8d1c3d;
+        color: #721731 ;
         border-radius: .5rem;
-        width: 90%;
     }
-    &__hora h3{
+    &__fondo h3{
         padding-top: 1.2rem;
         margin: 0;
+    }
+    &__ancho{
+        width: 90%;
     }
 }
 
