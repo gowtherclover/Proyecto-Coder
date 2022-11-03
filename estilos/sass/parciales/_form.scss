@@ -6,3 +6,7 @@
 .ventana,.ventana table th{
     color: #8d1c3d;
 }
+
+.form__boton{
+    @include fondo-letra;
+}

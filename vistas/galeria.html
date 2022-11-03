@@ -58,137 +58,387 @@
         <section class="seccion galeria container py-3"data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
             <div class="articulo articulo--ancho row py-3 m-auto">
                 <div class="col text-center mb-0">
-                    <div class="col-12">
-                        <div class="galeria__boton nav nav-tabs clickr-tabs mb-6 justify-content-around mr-3" id="nav-tab" role="tablist">
-                            <button class="shadow mb-3 rounded fw-bold text-uppercase" id="nav-africa-tab" data-bs-toggle="tab" data-bs-target="#nav-africa" type="button" role="tab" arial-controls="true">africa</button>
-                            <button class="shadow mb-3 rounded fw-bold text-uppercase" id="nav-america-tab" data-bs-toggle="tab" data-bs-target="#nav-america" type="button" role="tab" arial-controls="true">america</button>
-                            <button class="shadow mb-3 rounded fw-bold text-uppercase" id="nav-asia-tab" data-bs-toggle="tab" data-bs-target="#nav-asia" type="button" role="tab" arial-controls="true">asia</button>
-                            <button class="shadow mb-3 rounded fw-bold text-uppercase" id="nav-europa-tab" data-bs-toggle="tab" data-bs-target="#nav-europa" type="button" role="tab" arial-controls="true">europa</button>
-                            <button class="shadow mb-3 rounded fw-bold text-uppercase" id="nav-oceania-tab" data-bs-toggle="tab" data-bs-target="#nav-oceania" type="button" role="tab" arial-controls="true">oceania</button>
+                    <div class="galeria__boton col-12 navbar-expand-md">
+                        <button class="shadow mb-2 rounded navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-tab" aria-controls="nav-tab" aria-expanded="false" aria-label="Toggle navigation">
+                            Grupos
+                        </button>
+                        <div class="galeria__boton nav nav-tabs mb-6 justify-content-center flex-lg-nowrap collapse navbar-collapse" id="nav-tab" role="tablist">
+                            <ul class="d-md-flex">
+                                <li>
+                                    <button class="shadow m-1 rounded fw-bold text-uppercase" id="nav-grupo-a-tab" data-bs-toggle="tab" data-bs-target="#nav-grupo-a" type="button" role="tab" arial-controls="true">Grupo A</button>
+                                </li>
+                                <li>
+                                    <button class="shadow m-1 rounded fw-bold text-uppercase" id="nav-grupo-b-tab" data-bs-toggle="tab" data-bs-target="#nav-grupo-b" type="button" role="tab" arial-controls="true">Grupo B</button>
+                                </li>
+                                <li>
+                                    <button class="shadow m-1 rounded fw-bold text-uppercase" id="nav-grupo-c-tab" data-bs-toggle="tab" data-bs-target="#nav-grupo-c" type="button" role="tab" arial-controls="true">Grupo C</button>
+                                </li>
+                                <li>
+                                    <button class="shadow m-1 rounded fw-bold text-uppercase" id="nav-grupo-d-tab" data-bs-toggle="tab" data-bs-target="#nav-grupo-d" type="button" role="tab" arial-controls="true">Grupo D</button>
+                                </li>
+                            </ul>
+                            <ul class="d-md-flex">
+                                <li>
+                                    <button class="shadow m-1 rounded fw-bold text-uppercase" id="nav-grupo-e-tab" data-bs-toggle="tab" data-bs-target="#nav-grupo-e" type="button" role="tab" arial-controls="true">Grupo E</button>
+                                </li>
+                                <li>
+                                    <button class="shadow m-1 rounded fw-bold text-uppercase" id="nav-grupo-f-tab" data-bs-toggle="tab" data-bs-target="#nav-grupo-f" type="button" role="tab" arial-controls="true">Grupo F</button>
+                                </li>
+                                <li>
+                                    <button class="shadow m-1 rounded fw-bold text-uppercase" id="nav-grupo-g-tab" data-bs-toggle="tab" data-bs-target="#nav-grupo-g" type="button" role="tab" arial-controls="true">Grupo G</button>
+                                </li>
+                                <li>
+                                    <button class="shadow m-1 rounded fw-bold text-uppercase" id="nav-grupo-h-tab" data-bs-toggle="tab" data-bs-target="#nav-grupo-h" type="button" role="tab" arial-controls="true">Grupo H</button>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
                 <!-- contenido -->
                 <div class="tab-content py-2" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-africa" role="tabpanel" aria-labelledby="nav-africa">
+                    <!-- GRUPO A -->
+                    <div class="tab-pane fade show active" id="nav-grupo-a" role="tabpanel" aria-labelledby="nav-grupo-a">
                         <div class="row gx-3">
-                            <div id="camerun" class="galeria__fondo carousel slide col-md-10 mx-auto" data-bs-ride="false">
+                            <!-- GRUPO A ecuador -->
+                            <div id="ecuador" class="galeria__fondo--ecuador carousel slide col-md-10 mx-auto" data-bs-ride="false">
                                 <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#camerun" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#camerun" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#camerun" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#ecuador" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#ecuador" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#ecuador" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                 </div>
                                 <div class="galeria__carrusel carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="../img/galeria/jugadores/andre-onana.jpg" class="galeria__img d-block" alt="andre-onana">
-                                    <div class="carousel-caption d-md-block">
-                                        <h5>André Onana</h5>
-                                    </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="../img/galeria/jugadores/collins-fai.jpeg" class="galeria__img d-block" alt="collins-fai">
-                                    <div class="carousel-caption d-md-block">
-                                        <h5>Collins Fai</h5>
-                                    </div>
+                                    <div class="prueba carousel-item active">
+                                        <img src="../img/galeria/jugadores/enner-valencia.png" class="galeria__img d-block" alt="enner-valencia">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Enner Valencia</h5>
+                                        </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="../img/galeria/jugadores/jean-charles-castelletto.jpeg" class="galeria__img d-block" alt="jean-charles-castelletto">
-                                    <div class="carousel-caption d-md-block">
-                                        <h5>Jean-Charles Castelletto</h5>
+                                        <img src="/img/galeria/jugadores/angel-mena.png" class="galeria__img d-block" alt="angel-mena">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Angel Mena</h5>
+                                        </div>
                                     </div>
+                                    <div class="carousel-item">
+                                        <img src="/img/galeria/jugadores/michael-estrada.png" class="galeria__img d-block" alt="michael-estrada">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Michael Estrada</h5>
+                                        </div>
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#camerun" data-bs-slide="prev">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#ecuador" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#camerun" data-bs-slide="next">
+                                <button class="carousel-control-next" type="button" data-bs-target="#ecuador" data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Next</span>
                                 </button>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="nav-america" role="tabpanel" aria-labelledby="nav-america">
+                    <!-- FIN GRUPO A -->
+                    <!-- GRUPO B -->
+                    <div class="tab-pane fade" id="nav-grupo-b" role="tabpanel" aria-labelledby="nav-grupo-b">
                         <div class="row gx-3">
-                            <div id="camerun" class="galeria__fondo carousel slide col-md-10 mx-auto" data-bs-ride="false">
+                            <!-- GRUPO B eeuu -->
+                            <div id="eeuu" class="galeria__fondo--eeuu carousel slide col-md-10 mx-auto" data-bs-ride="false">
                                 <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#camerun" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#camerun" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#camerun" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#eeuu" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#eeuu" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#eeuu" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                 </div>
                                 <div class="galeria__carrusel carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="../img/galeria/jugadores/andre-onana.jpg" class="galeria__img d-block" alt="andre-onana">
-                                    <div class="carousel-caption d-md-block">
-                                        <h5>André Onana</h5>
-                                    </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="/img/galeria/jugadores/collins-fai.jpeg" class="galeria__img d-block" alt="collins-fai">
-                                    <div class="carousel-caption d-md-block">
-                                        <h5>Collins Fai</h5>
-                                    </div>
+                                        <img src="../img/galeria/jugadores/weston-mckennie.png" class="galeria__img d-block" alt="weston-mckennie">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Weston McKennie</h5>
+                                        </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="/img/galeria/jugadores/jean-charles-castelletto.jpeg" class="galeria__img d-block" alt="jean-charles-castelletto">
-                                    <div class="carousel-caption d-md-block">
-                                        <h5>Jean-Charles Castelletto</h5>
+                                        <img src="../img/galeria/jugadores/jordan-morris.png" class="galeria__img d-block" alt="jordan-morris">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Jordan Morris</h5>
+                                        </div>
                                     </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/galeria/jugadores/kellyn-acosta.png" class="galeria__img d-block" alt="kellyn-acosta">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Kellyn Acosta</h5>
+                                        </div>
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#camerun" data-bs-slide="prev">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#eeuu" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#camerun" data-bs-slide="next">
+                                <button class="carousel-control-next" type="button" data-bs-target="#eeuu" data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Next</span>
                                 </button>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="nav-asia" role="tabpanel" aria-labelledby="nav-asia">
-                        
-                            
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="nav-europa" role="tabpanel" aria-labelledby="nav-europa">
+                    <!-- FIN GRUPO B -->
+                    <!-- GRUPO C -->
+                    <div class="tab-pane fade" id="nav-grupo-c" role="tabpanel" aria-labelledby="nav-grupo-c">
                         <div class="row gx-3">
-                            
-                            
+                        <!-- GRUPO B argentina -->
+                            <div id="argentina" class="galeria__fondo--argentina carousel slide col-md-10 mx-auto" data-bs-ride="false">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#argentina" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#argentina" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#argentina" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="galeria__carrusel carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../img/galeria/jugadores/lionel-messi.png" class="galeria__img d-block" alt="lionel-messi">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Lionel Messi</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/galeria/jugadores/nicolas-otamendi.png" class="galeria__img d-block" alt="nicolas-otamendi">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Nicolas Otamendi</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/galeria/jugadores/angel-di-maria.png" class="galeria__img d-block" alt="angel-di-maria">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Angel Di Maria</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#argentina" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#argentina" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
-                    
-                    <div class="tab-pane fade" id="nav-oceania" role="tabpanel" aria-labelledby="nav-oceania">
+                    <!-- FIN GRUPO C -->
+                    <!-- GRUPO D -->
+                    <div class="tab-pane fade" id="nav-grupo-d" role="tabpanel" aria-labelledby="nav-grupo-d">
                         <div class="row gx-3">
-                            
+                            <!-- GRUPO D francia -->
+                            <div id="francia" class="galeria__fondo--francia carousel slide col-md-10 mx-auto" data-bs-ride="false">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#francia" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#francia" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#francia" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="galeria__carrusel carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../img/galeria/jugadores/kyllian-mbappe.png" class="galeria__img d-block" alt="kyllian-mbappe">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Kyllian Mbappe</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/galeria/jugadores/antoine-griezmann.png" class="galeria__img d-block" alt="antoine-griezmann">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Antoine Griezmann</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/galeria/jugadores/alban-lafont.png" class="galeria__img d-block" alt="alban-lafont">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Alban Lafont</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#francia" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#francia" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FIN GRUPO D -->
+                    <!-- GRUPO E -->
+                    <div class="tab-pane fade" id="nav-grupo-e" role="tabpanel" aria-labelledby="nav-grupo-e">
+                        <div class="row gx-3">
+                            <!-- GRUPO E espana -->
+                            <div id="espana" class="galeria__fondo--espana carousel slide col-md-10 mx-auto" data-bs-ride="false">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#espana" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#espana" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#espana" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="galeria__carrusel carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../img/galeria/jugadores/sergio-busquest.png" class="galeria__img d-block" alt="sergio-busquest">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Sergio Busquest</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/galeria/jugadores/carlos-soler.png" class="galeria__img d-block" alt="carlos-soler">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Carlos Soler</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/galeria/jugadores/alvaro-morata.png" class="galeria__img d-block" alt="alvaro-morata">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Alvaro Morata</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#espana" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#espana" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
                             
                         </div>
                     </div>
-                    
+                    <!-- FIN GRUPO E -->
+                    <!-- GRUPO F -->
+                    <div class="tab-pane fade" id="nav-grupo-f" role="tabpanel" aria-labelledby="nav-grupo-f">
+                        <div class="row gx-3">
+                            <!-- GRUPO F canada -->
+                            <div id="canada" class="galeria__fondo--canada carousel slide col-md-10 mx-auto" data-bs-ride="false">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#canada" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#canada" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#canada" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="galeria__carrusel carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../img/galeria/jugadores/ayo-akinola.png" class="galeria__img d-block" alt="ayo-akinola">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Ayo Akinola</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/galeria/jugadores/raheem-edwards.png" class="galeria__img d-block" alt="raheem-edwards">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Raheem Edwards</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/galeria/jugadores/james-pantemis.png" class="galeria__img d-block" alt="james-pantemis">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Jame Pantemis</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#canada" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#canada" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- FIN GRUPO F -->
+                    <!-- GRUPO G -->
+                    <div class="tab-pane fade" id="nav-grupo-g" role="tabpanel" aria-labelledby="nav-grupo-g">
+                        <div class="row gx-3">
+                            <!-- GRUPO G brasil -->
+                            <div id="brasil" class="galeria__fondo--brasil carousel slide col-md-10 mx-auto" data-bs-ride="false">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#brasil" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#brasil" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#brasil" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="galeria__carrusel carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../img/galeria/jugadores/neymar-jr.png" class="galeria__img d-block" alt="neymar-jr">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Neymar Jr</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/galeria/jugadores/roberto-firmino.png" class="galeria__img d-block" alt="roberto-firmino">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Roberto Firmino</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/galeria/jugadores/eder-militao.png" class="galeria__img d-block" alt="eder-militao">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Eder Militao</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#brasil" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#brasil" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- FIN GRUPO G -->
+                    <!-- GRUPO H -->
+                    <div class="tab-pane fade" id="nav-grupo-h" role="tabpanel" aria-labelledby="nav-grupo-h">
+                        <div class="row gx-3">
+                            <!-- GRUPO H portugal -->
+                            <div id="portugal" class="galeria__fondo--portugal carousel slide col-md-10 mx-auto" data-bs-ride="false">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#portugal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#portugal" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#portugal" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="galeria__carrusel carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../img/galeria/jugadores/cristiano-ronaldo.png" class="galeria__img d-block" alt="cristiano-ronaldo">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Cristiano Ronaldo</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/galeria/jugadores/vitinha.png" class="galeria__img d-block" alt="vitinha">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Vitinha</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/galeria/jugadores/rafael-leao.png" class="galeria__img d-block" alt="rafael-leao">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Rafael Leao</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#portugal" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#portugal" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- FIN GRUPO H -->  
                 </div>
                 <!--fin contenido  -->
             </div>
-            
-            <!-- <div class="row py-2 ">
-                <div class="col-md-6" ><img class="img-fluid" src="../img/galeria/pelota-oficial.webp" alt=""></div>
-                <div class="col-md-6" ><img class="img-fluid" src="../img/galeria/copa.jpg" alt=""></div>
-                <div class="col-md-6" ><img class="img-fluid" src="../img/galeria/tribuna.jpg" alt=""></div>
-                <div class="col-md-6" ><img class="img-fluid" src="../img/galeria/pelota-paises.webp" alt=""></div>
-                <div class="col-md-6" ><img class="img-fluid" src="../img/galeria/jugadores-2.jpg" alt=""></div>
-                <div class="col-md-6" ><img class="img-fluid" src="../img/galeria/entrada-qatar.jpg" alt=""></div>
-                <div class="col-md-6" ><img class="img-fluid" src="../img/galeria/estadio-2.jpg" alt=""></div>
-                <div class="col-md-6" ><img class="img-fluid" src="../img/galeria/2022.jpg" alt=""></div>
-                <div class="col-md-6" ><img class="img-fluid" src="../img/galeria/estadio-1.jpg" alt=""></div>
-                <div class="col-md-6" ><img class="img-fluid" src="../img/galeria/banderas.jpg" alt=""></div>
-                <div class="col-md-6" ><img class="img-fluid" src="../img/galeria/estadio-3.jpg" alt=""></div>
-                <div class="col-md-6" ><img class="img-fluid" src="../img/galeria/mascota.png" alt=""></div>
-                <div class="col-md-6" ><img class="img-fluid" src="../img/galeria/sorteo.jpg" alt=""></div>
-                <div class="col-md-6" ><img class="img-fluid" src="../img/galeria/cancha.jpg" alt=""></div>
-                <div class="col-md-6" ><img class="img-fluid" src="../img/galeria/estadio-4.jpg" alt=""></div>
-                <div class="col-md-6" ><img class="img-fluid" src="../img/galeria/qatar-2022.jpg" alt=""></div>
-            </div> -->
         </section>
         
         <div class="boton d-flex align-items-center justify-content-center">
@@ -196,7 +446,7 @@
                 <i class="fas fa-arrow-up"></i>
             </a>
         </div>
-
+        
     </main>
     <footer class="text-center text-lg-start text-muted">
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom text-light">

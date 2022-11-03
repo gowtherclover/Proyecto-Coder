@@ -10,24 +10,30 @@
         color: #fff;
     }
 
-    &__fondo{
-    background-image: url(../../../img/bandera-paises/bandera-camerun.jpeg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    
-    }
     & h5{
         display: inline;
         background-color: #fff;
         color: $bordo;
+        box-shadow: 2px 2px 10px black;
         padding: 0 2rem;
         border-radius: 2rem;
     }
     &__img{
-        padding: 1rem;
         width: 60%;
-        margin: auto;
-        border-radius: 8%;
+        margin: 1rem auto;
+        border-radius: 0.7rem;
+        background-color: #fff;
+        background-image: url(http://drive.google.com/uc?export=view&id=1R2C42hXT2bNgeWxJvfPy3bpBgjjYKg0t);
+        background-size: cover;
+        
     }
 }
 
+@each $pais in ecuador,eeuu,argentina,francia,espana,canada,brasil,portugal {
+    .galeria__fondo--#{$pais}{
+        background-image: url(../../img/galeria/bandera-paises/bandera-#{$pais}.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border-radius: 0.7rem;
+        }
+}

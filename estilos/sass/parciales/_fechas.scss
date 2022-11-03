@@ -1,9 +1,5 @@
 .fecha{
-    background-color: #e1c396c9;
-    color: #8d1c3d;
+    @include fondo-letra;
     border-radius: .5rem;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.6);
 }
-
-/*.fecha h2{
-    border-bottom: #8d1c3d 2px solid;
-}*/

@@ -1,0 +1,9 @@
+@mixin lectura {
+    background-color: #ffffffe5;
+    color: $bordo;
+    
+}
+@mixin fondo-letra{
+    background-color: $dorado;
+    color: $bordo;
+}
