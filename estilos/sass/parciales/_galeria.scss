@@ -9,9 +9,9 @@
     &__boton button:hover{
         color: #fff;
     }
-    
-    &--fondo{
-    background-image: url(/img/bandera-paises/bandera-camerun.jpeg);
+
+    &__fondo{
+    background-image: url(../../../img/bandera-paises/bandera-camerun.jpeg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     
@@ -30,3 +30,4 @@
         border-radius: 8%;
     }
 }
+
