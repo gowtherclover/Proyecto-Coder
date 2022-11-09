@@ -16,4 +16,9 @@
     .galeria__img{
         width: 80%;
     }
+    .articulo{
+        &__texto p, &__texto blockquote p i{
+            font-size: 0.9rem;
+        }
+    }
 }
